@@ -11,19 +11,6 @@ let cardsEl = document.getElementById("cards-el")
 let startGameBtn = document.getElementById('start-game-btn')
 let newCardBtn = document.getElementById('new-card-btn')
 
-let player = {
-    name:"Kylie",
-    chips: 1500,
-    sayHello: function() {
-        console.log('Hi ' + player.name + '!')
-    }
-}
-
-player.sayHello()
-
-let playerEl = document.getElementById('player-el')
-playerEl.textContent = player.name + ': $' + player.chips
-
 console.log(cards)
 
 // change cards from hard coded to dynamic
