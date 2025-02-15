@@ -1,0 +1,16 @@
+{
+  "name": "black_jack",
+  "description": "vite and js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "netlify:dev": "netlify dev",
+    "netlify:deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "netlify-cli": "^18.1.0",
+    "vite": "latest"
+  }
+}
